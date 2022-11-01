@@ -2,7 +2,8 @@
   "name": "weather-app",
   "version": "0.0.0",
   "engines": {
-    "node": "16.13.1"
+    "node": "16.13.1",
+    "npm ": "8.18.0"
   },
   "scripts": {
     "ng": "ng",
@@ -16,17 +17,20 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~11.2.12",
+    "@angular/cli": "~11.2.11",
     "@angular/common": "~11.2.12",
     "@angular/compiler": "~11.2.12",
+    "@angular/compiler-cli": "~11.2.12",
     "@angular/core": "~11.2.12",
     "@angular/forms": "~11.2.12",
     "@angular/platform-browser": "~11.2.12",
     "@angular/platform-browser-dynamic": "~11.2.12",
     "@angular/router": "~11.2.12",
-    "@angular/cli": "~11.2.11",
-    "@angular/compiler-cli": "~11.2.12",
+    "express": "^4.18.2",
+    "path": "^0.12.7",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
+    "typescript": "~4.1.5",
     "zone.js": "~0.11.3"
   },
   "devDependencies": {
@@ -36,6 +40,7 @@
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
+    "enhanced-resolve": "^3.3.0",
     "jasmine-core": "~3.8.0",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~6.1.0",
